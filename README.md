@@ -267,7 +267,7 @@
                     <div id="work_ex_header">
                         <div id="company_logo"></div>
                         <div id="company_header">
-                            <p id="work_ex_designation">Senior Big Data Developer</p>
+                            <p id="work_ex_designation">Big Data Developer</p>
                             <p id="work_ex_company">Company : Infosys Ltd.</p>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                     <div id="work_ex_header">
                         <div id="company_logo"></div>
                         <div id="company_header">
-                            <p id="work_ex_designation">B.Tech ( Electronics & Communication Engineering )</p>
+                            <p id="work_ex_designation">B.Tech ( ECE Engineering )</p>
                             <p id="work_ex_company">Maharaja Agrasen Institute of Technology, Delhi</p>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                     <div id="work_ex_header">
                         <div id="company_logo"></div>
                         <div id="company_header">
-                            <p id="work_ex_designation">Senior Secondary School</p>
+                            <p id="work_ex_designation">Sr. Sec. School</p>
                             <p id="work_ex_company">Ravindra Public School</p>
                         </div>
                     </div>
