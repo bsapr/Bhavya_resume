@@ -1,0 +1,519 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 15vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+      
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+  border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 30px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+section:nth-child(2n){
+	background-color: lightgrey;
+}
+.section_div{
+	padding-top:5px; 
+	/*margin-bottom: 10px;*/
+}
+.section_div h5{
+text-align:center;
+color:blue;
+margin-bottom: 50px;
+	}
+
+	
+/*#skills i{
+	color: blue;
+
+}*/
+i{
+	color: blue;
+
+}
+#skill_progress_section span{
+	margin-right:3px;
+	color:blue;
+}
+
+#skill_progress_section
+{	margin: auto;
+	padding: 5px;
+	padding-bottom: 10px;
+	height:250px;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.progress_bar_outer{
+height: 30px;
+width:200px;
+background-color: lightgrey;
+border:1px solid darkgrey ;
+border-radius:17px;
+margin-right: 20px;
+
+
+}
+
+#progress_bar_1{
+	height:100%;
+	width:0%;
+	background-color: blue;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+		
+	
+}
+
+#skill_progress_section span{
+	padding-left: 10px;
+	color: black;
+	font-size: 1rem;
+	font-style: bold;
+	vertical-align: middle;
+}
+#progress_bar_2{
+	height:100%;
+	width:0%;
+	background-color: orange;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+		
+	
+}
+#progress_bar_3{
+	height:100%;
+	width:0%;
+	background-color: green;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+		
+	
+}
+#progress_bar_4{
+	height:100%;
+	width:0%;
+	background-color: red;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+		
+	
+}
+#progress_bar_5{
+	height:100%;
+	width:0%;
+	background-color: blue;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+		
+	
+}
+#progress_bar_6{
+	height:100%;
+	width:0%;
+	background-color: green;
+	border-top-left-radius: 17px;
+	border-bottom-left-radius:17px; 
+
+}
+
+#portfolio_section .image_row{
+	margin: auto;
+/*	padding: -5px;*/
+	margin-bottom: 40px;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-around;
+	
+	align-content: space-between;
+}
+
+.portfolio_image{
+
+	display: inline-block;
+	margin-right:20px;
+	height: 200px;
+
+}
+#portfolio_section img{
+
+	height: 100%;
+	width: 100%;
+}
+ #contact_section{
+	margin: auto;
+	padding: -5px;
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:baseline;
+}
+#contact{
+	background-image: linear-gradient(to right, blue 60%,purple );
+	height: auto;
+}
+
+#contact_form{
+	
+	width: 300px;
+	color: white;
+	height:400px;
+	
+}
+#contact_details{
+	
+		width: 300%;
+		height:400px;
+}
+#contact_form form input{
+	padding: 6px;
+
+	border-bottom : 2px solid white;
+	border-left:none;
+	border-top: none;
+	border-right: none;
+	background-color: transparent;
+	width:100%;
+}
+#contact_form form textarea{
+	padding: 6px;
+	color: darkgrey;
+	border-bottom : 2px solid white;
+	border-left:none;
+	border-top: none;
+	border-right: none;
+	background-color: transparent;
+	width:100%;
+}
+#submit_div{
+	display: flex;
+	justify-content: center;
+}
+#contact_form form  #submitbutton{
+	margin-top:20px;
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size:1.5rem;
+	color:white;
+	font-style: bold;
+	line-height: 1.4;
+	box-shadow: 0px 0px 2px 1px rgba(230, 196, 196, 0.3);
+	background-color: transparent;
+	border-radius: 5px;
+}
+
+#contact_details{
+width: 40%;
+	color: white;
+	background-color: transparent;
+}
+#contact_details h6{
+	margin-bottom: 5px;
+}
+#contact_details #address{
+	margin-top: -1px;
+}
+#contact_details p{
+	font-size: 1rem;
+	line-height: 1;
+	color: lightgrey;
+	text-align: justify;
+
+}
+#contact_details div{
+	margin-top:10px;
+	margin-bottom: 10px;
+	height:30px;
+	color:white;
+
+}
+#contact_details span{
+vertical-align: middle;
+letter-spacing:1px; 
+font-size: 20px;
+color: lightgrey;
+margin-right:2px;
+}
+#contact_details img{
+height: 100%;
+}
+
+#work_experience_div{
+
+
+	width: 70%;
+	margin:auto;
+	/*position: relative;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.work_exp_section{
+	position: relative;
+	left: 40px;
+	width: 40%;
+	height: 180px;
+	margin-bottom: 5px;
+
+
+}
+
+
+
+.work_exp_section:nth-child(2n)
+{
+	position: relative;
+	left: 55%;
+	width: 40%;
+	height: 180px;
+	margin-bottom: 5px;
+}
+
+#Work_Experience{
+
+padding-bottom: 20px;
+position: relative;
+}
+
+#work_ex_header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#company_logo{
+	height: 80px;
+	width:80px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+}
+#company_header{
+height: 80px;
+}
+#work_ex_designation{
+	font-size: 1.6rem;
+	color: blue;
+	line-height: 0.8;
+	font-weight: bolder;
+	font-style: bold;
+	text-align: right;
+
+	/*margin-right: 0px*/
+	
+}
+#work_ex_company{
+	font-size: 1.2rem;
+	text-align: right;
+	color: orange;
+	margin-top: -10px;
+
+/*	
+	margin-right: 0px;*/
+}
+#work_ex_period{
+font-size: 1.2rem;
+	text-align: right;
+	color: grey;
+	
+	margin-top: -13px;
+
+
+}
+#work_ex_details{
+	width: 100%;
+	overflow-wrap: break-word;
+	font-size: 0.8rem;
+	text-align: justify;	
+	color: grey;
+
+}
+
+.timeline-divider{
+	position: absolute;
+	left: 50%;
+	height: 75%;
+	top:20%;
+	width: 0%;
+	border:3px dashed #0096fa6b;
+}
+
+
+
+.timeline-traveller{	
+	position: sticky;
+	top:20%;
+   transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+
+
